@@ -1,0 +1,18 @@
+
+:root {
+    --main-color: #0081A7;
+    --secondary-color: #00AFB9;
+    --accent-1: #FDFCDC;
+    --accent-2: #FED9B7;
+    --heading-font: sigmar , Helvetica, sans-serif;
+    --text-font: lexend deca, times-new-roman, sans-serif;
+}
+
+h1 {
+    font-family: var(--heading-font);
+    /* color: var(--accent-1); */
+}
+
+body {
+    font-family: var(--text-font)
+}
