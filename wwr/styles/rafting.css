@@ -46,8 +46,8 @@ article {
     position: absolute;
     background-color: var(--accent-1);
     float: right;
-    max-width: 1000;
-    width: 200;
+    padding: 0 0 0 25px;
+    max-width: 1500px;
 }
 
 
