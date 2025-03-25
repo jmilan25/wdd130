@@ -1,18 +1,71 @@
 
 :root {
-    --main-color: #0081A7;
+    --main-color: #0081A7b0;
     --secondary-color: #00AFB9;
-    --accent-1: #FDFCDC;
+    --accent-1: #FDFCDCb0;
     --accent-2: #FED9B7;
     --heading-font: sigmar , Helvetica, sans-serif;
     --text-font: lexend deca, times-new-roman, sans-serif;
+    max-width: 1500px;
+    padding: 50px;
 }
 
 h1 {
+    top: 35%;
+    padding: 0 37.69%;
+    position: absolute;
+    font-size: 40px;
+    /* float: left; */
     font-family: var(--heading-font);
+    background-color: var(--main-color);
+    color: var(--accent-2);
+    
+}
+
+a {
+    font-family: var(--text-font);
+}
+
+p {
+    font-family: var(--text-font);
     /* color: var(--accent-1); */
+}
+
+#art img {
+    position: relative;
+    padding: 20px 30px;
+    float: right;
+    width: 300px;
+    height: auto;
+}
+
+article {
+    top: 60%;
+    left: 10%;
+    right: 10%;
+    position: absolute;
+    background-color: var(--accent-1);
+    float: right;
+    max-width: 1000;
+    width: 200;
+}
+
+
+.hero img{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.NU {
+    text-decoration: none;
 }
 
 body {
     font-family: var(--text-font)
+}
+
+footer img{
+    width: 50px;
 }
