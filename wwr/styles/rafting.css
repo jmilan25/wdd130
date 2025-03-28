@@ -6,24 +6,33 @@
     --accent-2: #FED9B7;
     --heading-font: "Sigmar" , Helvetica, sans-serif;
     --text-font: "Lexend deca", Times, sans-serif;
-    max-width: 1500px;
-    padding: 50px;
+    max-width: 2000px;
+    /* padding: 50px; */
 }
 
 header {
+    background-color: var(--main-color);
     display: grid;
+    grid-template-columns: 1fr 400px;
     align-items: center;
+    padding: 20px;
+
 }
 
 nav {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 
 h1 {
     top: 35%;
-    padding: 0 37.69%;
+    /* padding: 0 37.69%; */
+    /* padding: 0 623px; */
+    /* padding: 0 62px; */
+    display: grid;
+    grid-template-columns: 1fr;
+
     position: absolute;
     font-size: 40px;
     /* float: left; */
@@ -70,6 +79,7 @@ article {
 }
 
 .NU {
+    /* border: 1px solid black; */
     text-decoration: none;
 }
 
