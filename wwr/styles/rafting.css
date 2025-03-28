@@ -10,6 +10,17 @@
     padding: 50px;
 }
 
+header {
+    display: grid;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
 h1 {
     top: 35%;
     padding: 0 37.69%;
