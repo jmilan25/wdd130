@@ -4,8 +4,8 @@
     --secondary-color: #00AFB9;
     --accent-1: #FDFCDCb0;
     --accent-2: #FED9B7;
-    --heading-font: sigmar , Helvetica, sans-serif;
-    --text-font: lexend deca, times-new-roman, sans-serif;
+    --heading-font: "Sigmar" , Helvetica, sans-serif;
+    --text-font: "Lexend deca", Times, sans-serif;
     max-width: 1500px;
     padding: 50px;
 }
