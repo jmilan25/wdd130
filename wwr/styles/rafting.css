@@ -148,7 +148,7 @@ figure {
     border: thin #c0c0c0 solid;
     margin: 80px 15px 0px;
     padding: 10px;
-    background-color: #00AFB9;
+    background-color: var(--main-color);
 }
 
 body {
