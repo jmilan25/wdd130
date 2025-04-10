@@ -164,8 +164,10 @@ body {
     font-family: var(--text-font)
 }
 
+
+
 .contacts{
-    padding: 2% 10%;
+    padding: 15% 10% 0;
     display: grid;
     grid-template-columns: 2fr repeat(3, 1fr);
     grid-template-rows: 1fr 1fr;
@@ -192,6 +194,13 @@ div p{
     width: 150px;
     height: 200px;
     /* align-content: center; */
+}
+
+#forms{
+    /* position: absolute;
+    justify-content: center;
+
+    float: left; */
 }
 
 fieldset {
