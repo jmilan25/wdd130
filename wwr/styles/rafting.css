@@ -17,7 +17,7 @@
 }
 
 header {
-    background-color: var(--main-color);
+    background-color: #0081A7;
     display: grid;
     grid-template-columns: 1fr 400px;
     align-items: center;
@@ -118,6 +118,9 @@ article {
 .NU {
     /* border: 1px solid black; */
     text-decoration: none;
+    font-size: 20px;
+    color: var(--accent-2);
+    text-shadow: #000;
 }
 
 .adventures {
