@@ -120,7 +120,6 @@ article {
     text-decoration: none;
     font-size: 20px;
     color: var(--accent-2);
-    text-shadow: #000;
 }
 
 .adventures {
@@ -160,7 +159,7 @@ figure {
     border: thin #c0c0c0 solid;
     margin: 80px 15px 0px;
     padding: 10px;
-    background-color: var(--main-color);
+    background-color: #0081A7;
 }
 
 body {
@@ -181,7 +180,10 @@ div iframe {
     height: 400px;
     grid-column: 1;
     grid-row: 1/3;
+    border-style: none;
     /* border: 10px solid black ; */
+    
+    /* style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" */
 }
 
 div p{
@@ -193,10 +195,19 @@ div p{
 
 .employee{
     /* grid-column: 2/5; */
-    margin: 8% 10%;
+    margin: 8% 5%;
     width: 150px;
     height: 200px;
     /* align-content: center; */
+}
+
+#employeeclass{
+    margin: 0 5%;
+    padding: 8% 5% 8% 10%;
+}
+
+#figtext{
+    color: var(--accent-2);
 }
 
 #forms{
