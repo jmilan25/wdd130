@@ -6,7 +6,8 @@
 }
 
 :root {
-    --main-color: #0081A7b0;
+    /* --main-color: #0081A7b0; */
+    --main-color: #014b61;
     --secondary-color: #00AFB9;
     --accent-1: #FDFCDCb0;
     --accent-2: #FED9B7;
@@ -17,7 +18,8 @@
 }
 
 header {
-    background-color: #0081A7;
+    /* background-color: #0081A7; */
+    background-color: var(--main-color);
     display: grid;
     grid-template-columns: 1fr 400px;
     align-items: center;
@@ -159,7 +161,7 @@ figure {
     border: thin #c0c0c0 solid;
     margin: 80px 15px 0px;
     padding: 10px;
-    background-color: #0081A7;
+    background-color: var(--main-color);
 }
 
 body {
@@ -208,6 +210,10 @@ div p{
 
 #figtext{
     color: var(--accent-2);
+}
+
+figcaption{
+    color: white;
 }
 
 #forms{
@@ -286,6 +292,47 @@ button:hover{
     padding-right: 1rem;
 } */
 
+/* ------------trips------------- */
+
+.trips-head{
+    left: 0;
+    top: 29.3%;
+    padding: 0 47%;
+}
+
+table{
+    background-color: black;
+    margin: 10%;
+}
+
+.trips{
+    width: 300px;
+    /* padding: 10%; */
+    margin: 50px;
+    border: #00AFB9 1px solid;
+}
+
+tr{
+    display: grid;
+    grid-template-columns: 4fr 3fr 1fr;
+    background-color: var(--main-color);
+    color: #FED9B7;
+    text-align: center;
+    align-items: center;
+    border: solid 1px black;
+}
+
+b{
+    font-size: 20px;
+}
+
+
+/* ------------------footer------------------ */
+
+#wireframe{
+    width: 300px;
+    margin: 0 0 0 40%;
+}
 
 footer img{
     width: 50px;
