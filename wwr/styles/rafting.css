@@ -326,6 +326,42 @@ b{
     font-size: 20px;
 }
 
+/* -------------------home------------------- */
+#home-art{
+    bottom: 11%;
+}
+
+#edittor{
+
+    width: 600px;
+    margin: 50px auto;
+    padding: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+    font-size: 16px;
+}
+
+.homegrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+
+}
+
+.homepics{
+    /* display: grid;
+    justify-items: right; */
+    width: 761px;
+    height: auto;
+
+}
+
+/* .homepics-2{
+    width: 300px;
+    height: auto;
+} */
 
 /* ------------------footer------------------ */
 
